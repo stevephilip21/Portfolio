@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo">
+            <span style="color: rgb(207, 12, 71)">S</span>teve.
+          </h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+        </nav>
+        <div style="display: flex">
+          <div class="header-text" >
+            <!-- <p>Front-End Developer</p> -->
+            <h1>Hi, I am <span>Steve</span></h1>
+            <p>I am a Angular developer with 2 years of <br>experience in javascript,Angular</p>
+          </div>
+          <div id="headimg"></div>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="myimg2.JPG" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tilte">About Me</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              error excepturi, nam, ullam animi sed culpa cumque veniam tempora
+              sapiente deleniti ducimus quod placeat officiis iste suscipit
+              voluptatum odit debitis?
+            </p>
+            <div class="tab-tiltes">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+              <p class="tab-links"  onclick="opentab('education')">Education</p>
+            </div>
+              <div class="tab-contents active-tab" id="skills">
+               <div class="col-1">
+                    <div class="logo-border">
+                        <img class="jsimg"src="js.png.png" alt="">
+                        <p class="logo-text">Javascript</p>
+                    </div>
+                    <div  class="logo-border">
+                        <img class="angimg" src="angular-logo.png" alt="">
+                        <p class="logo-text">Angular</p>
+                    </div  >
+                    <div class="logo-border">
+                        <img class="htmlimg" src="html5-logo.png">
+                        <p class="logo-text">HTML</p>
+                    </div>
+               </div>
+               <div class="col-2">
+                <div class="logo-border">
+                    <img class="cssimg"src="css.png" alt="">
+                    <p class="logo-text">Css</p>
+                </div>
+                <div  class="logo-border">
+                    <img class="angimg" src="bootstrap-logo.png" alt="">
+                    <p class="logo-text">Bootstrap</p>
+                </div  >
+                <div class="logo-border">
+                    <img class="htmlimg" src="git.png">
+                    <p class="logo-text">Git</p>
+                </div>
+           </div>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>Infosys</span><br />
+                    Developed Angulatr Application
+                  </li>
+                  <li>
+                    <span>Javascript</span><br />
+                    Developed JavascriptApplication
+                  </li>
+                  <li>
+                    <span>HTML</span><br />
+                    Developed HTML Application
+                  </li>
+                  <li>
+                    <span>CSS</span><br />
+                    Developed CSS Application
+                  </li>
+                </ul>
+             
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>saranathan</span><br />
+                    Developed Angulatr Application
+                  </li>
+                  <li>
+                    <span>Javascript</span><br />
+                    Developed JavascriptApplication
+                  </li>
+                  <li>
+                    <span>HTML</span><br />
+                    Developed HTML Application
+                  </li>
+                  <li>
+                    <span>CSS</span><br />
+                    Developed CSS Application
+                  </li>
+                </ul>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <--about-end> -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Certifications</h1>
+                <div class="work-list">
+                <div class="work">
+                    <img src="myimg2.JPG">
+                </div>
+                <div class="work">
+                    <img src="myimg2.JPG">
+                </div>
+                <div class="work">
+                    <img src="myimg2.JPG">
+                </div>
+            </div>
+            </div>
+        </div>
+  </body>
+</html>
